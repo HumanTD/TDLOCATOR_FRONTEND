@@ -702,6 +702,10 @@ a {
   * by plugins.
   */
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -718,6 +722,10 @@ a {
   margin: 2.5rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -726,6 +734,21 @@ a {
 .mx-16 {
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-2 {
@@ -742,6 +765,10 @@ a {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .block {
@@ -794,6 +821,10 @@ a {
 
 .w-1\/4 {
   width: 25%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-xs {

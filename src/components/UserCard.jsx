@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const UserCard = ({ name, age, lastLocation, description, image, Case }) => (
   <div className="w-80 rounded-lg border-2 shadow-lg transition duration-300 hover:shadow-xl">
