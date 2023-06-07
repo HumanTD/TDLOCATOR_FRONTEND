@@ -1,125 +1,37 @@
-[![Issues][issues-shield]][issues-url]
+# 🚀 React 18 with Tailwind CSS
 
-<!-- PROJECT LOGO -->
+Learn how to quickly set up a `React.js` project with Tailwind CSS using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Create React App (CRA) and it uses PurgeCSS to remove all the unused CSS classes from the production build.
 
-  <h3 align="center">YOUR_TITLE</h3>
+## Live Demo
 
-  <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
-    <a href="https://github.com/csivitu/Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/csivitu/Template">View Demo</a>
-    ·
-    <a href="https://github.com/csivitu/Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/csivitu/Template/issues">Request Feature</a>
-  </p>
-</p>
+The [Digital Inspiration](https://digitalinspiration.com/) website is built with the Tailwind CSS, React.js and Gatsby.
 
+[CodeSandbox](https://codesandbox.io/s/github/labnol/react-tailwind) | [Glitch](https://glitch.com/edit/#!/remix/react-tailwindcss) | [Vercel](https://csb-ggfl7-ipit3clvr.vercel.app/)
 
+### Available npm scripts
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+In the project directory, you can run:
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contributors](#contributors-)
+### `npm run start`
 
+Runs the app in the development mode.
 
+Open `http://localhost:3000` to view it in the browser.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+The page will reload if you make edits. You will also see any lint errors in the console.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### `npm run build`
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Template`
+Builds the React app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 
-### Built With
+### `npm run inline`
 
-* []()
-* []()
-* []()
+This command uses `Gulp` to inline all the JavaScript and CSS files from the production build into a single minified file.
 
+### 📧 Contact
 
+The React and Tailwind CSS starter is written by [Amit Agarwal](https://www.labnol.org/about). It is now updated to support Tailwind CSS v2.0.
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/csivitu/Template.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/csivitu/Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
-4. Push to the Branch (`git push -u origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project :smile:.
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
-[csivitu-url]: https://csivit.com
-[issues-shield]: https://img.shields.io/github/issues/csivitu/Template.svg?style=flat-square
-[issues-url]: https://github.com/csivitu/Template/issues
+If you have any questions or feedback, send an email at [amit@labnol.org](mailto:amit@labnol.org?subject=Tailwind+React).
