@@ -113,7 +113,7 @@ const MapLayout = ({ routeCoordinates }) => {
   return (
     <div
       ref={mapContainerRef}
-      style={{ height: "75vh", width: "75vw", zIndex: 999 }}
+      style={{ height: "55vh", width: "75vw", zIndex: 999 }}
     ></div>
   );
 };
