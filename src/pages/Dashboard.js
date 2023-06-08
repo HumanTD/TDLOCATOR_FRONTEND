@@ -15,40 +15,40 @@ const routeCoordinates = [
   [73.9251, 18.5167], // Shivajinagar, Pune, Maharashtra, India
 ];
 
-console.log(routeCoordinates)
 
-const Dashboard = () => (
-  <>
-    {/* <NewNavbar /> */}
-    {/* <Navbar /> */}
-    <div className="flex flex-row ">
-      <div className="w-3/4">
-        <MapLayout routeCoordinates={routeCoordinates} />
-        <Logs routeCoordinates={routeCoordinates} />
-      </div>
-      <div className="mx-2 my-2 w-1/4 border-4">
-        {/* <Search /> */}
-        <UserCard
-          name="pretty boy"
-          description="living on the westside"
-          Case="dementia"
-          age={20}
-          lastLocation="bihar"
-          image={Harshaal}
-        />
-        <div className="mt-10 flex justify-center">
-          <Button
-            type="button"
-            variant="contained"
-            className="flex w-3/4 justify-center"
-            href="/"
-          >
-            Update Case
-          </Button>
+const Dashboard = () => {
+  return (
+    <>
+      {/* <NewNavbar /> */}
+      {/* <Navbar /> */}
+      <div className="flex flex-row ">
+        <div className="w-3/4">
+          <MapLayout routeCoordinates={routeCoordinates} />
+          <Logs />
+        </div>
+        <div className="mx-2 my-2 w-1/4">
+          {/* <Search /> */}
+          <UserCard
+            name="pretty boy"
+            description="living on the westside"
+            Case="dementia"
+            age={20}
+            lastLocation="bihar"
+            image={Harshaal}
+          />
+          <div className="mt-10 flex justify-center">
+            <Button
+              type="button"
+              variant="contained"
+              className="flex w-3/4 justify-center"
+              href="/"
+            >
+              Update Case
+            </Button>
+          </div>
         </div>
       </div>
-    </div>
-  </>
-);
-
+    </>
+  );
+};
 export default Dashboard;

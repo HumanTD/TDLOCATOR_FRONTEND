@@ -18,7 +18,7 @@ const MapLayout = ({ routeCoordinates }) => {
   const [viewPort, setViewPort] = useState({
     latitude: 18.5204,
     longitude: 73.8567,
-    zoom: 6,
+    zoom: 11,
   });
   //   const mapRef = useRef();
 
@@ -46,7 +46,7 @@ const MapLayout = ({ routeCoordinates }) => {
       container: mapContainerRef.current,
       style: "mapbox://styles/harshalranjhani/clilsejzc002l01pg16v21p7j", // Or use your desired map style
       center: [viewPort.longitude, viewPort.latitude], // Set the initial center of the map
-      zoom: 6, // Set the initial zoom level
+      zoom: viewPort.zoom, // Set the initial zoom level
     });
     
   map.addControl(new mapboxgl.NavigationControl());
@@ -113,7 +113,7 @@ const MapLayout = ({ routeCoordinates }) => {
   return (
     <div
       ref={mapContainerRef}
-      style={{ height: "75vh", width: "75vw", zIndex: 999 }}
+      style={{ height: "55vh", width: "75vw", zIndex: 999 }}
     ></div>
   );
 };
