@@ -8,6 +8,7 @@ import Login from './pages/login';
 import NoPage from './pages/NoPage';
 import SelectCase from './pages/SelectCase';
 import './styles/index.css';
+import CaseForm from './components/CaseForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,6 +20,7 @@ root.render(
         <Route path="*" element={<NoPage />} />
         <Route path="selectcase" element={<SelectCase />} />
         <Route path="dashboard/:user" element={<Dashboard />} />
+        <Route path="/form" element={<CaseForm />} />
 
         <Route path="login" element={<Login />} />
       </Route>
