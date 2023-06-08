@@ -26,7 +26,7 @@ const Dashboard = () => (
         <MapLayout routeCoordinates={routeCoordinates} />
         <Logs routeCoordinates={routeCoordinates} />
       </div>
-      <div className="mx-2 my-2 w-1/4 border-4">
+      <div className="mx-2 my-2 w-1/4">
         {/* <Search /> */}
         <UserCard
           name="pretty boy"
